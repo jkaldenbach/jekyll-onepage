@@ -3,8 +3,17 @@ layout: default
 ---
 
 <div class="home">
-
+  <h1>Foos</h1>
+  {{ site.foos }}
   <h1 class="page-heading">Posts</h1>
+
+  <ul>
+    {% for foo in site.foos %}
+      <li>
+        {{ foo.title }}
+      </li>
+    {% endfor %}
+  </ul>
 
   <ul class="post-list">
     {% for post in site.posts %}
