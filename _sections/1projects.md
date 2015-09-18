@@ -4,6 +4,7 @@ slug: 'projects'
 ---
 # {{ page.title }}
 
-* this item
-* that item
+{% for icon in site.posts %}
+  {{ icon.url }}
+{% endfor %}
 {: .listClass}

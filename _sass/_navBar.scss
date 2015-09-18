@@ -1,0 +1,105 @@
+.nav {
+  background-color: rgba(0,0,0,0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 30px;
+  z-index: 50;
+}
+
+.nav.shrink {
+  background-color: rgba(0,0,0,0.5);
+}
+
+[data-magellan-expedition-clone] {
+  opacity: 0;
+  height: 0;
+}
+
+.nav .header-img {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+  margin-left: 5%;
+  height: 80px;
+  max-width: 90%;
+  transition: .4s ease all;
+}
+
+.nav.shrink .header-img {
+  margin-left: 0%;
+  height: 30px;
+  transition: .4s ease all;
+}
+
+.sub-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 20px 15px;
+  transition: .4s ease all;
+}
+
+.nav .sub-nav {
+  opacity: 0;
+  height: 0;
+  transition: .2s ease all;
+}
+
+.nav.shrink .sub-nav {
+  height: auto;
+  opacity: 1;
+  margin: 10px 15px;
+  transition: .2s ease all;
+  transition-delay: .4s;
+}
+
+.top-nav {
+  display: block;
+  margin: 0 auto;
+}
+
+.top-nav span {
+  margin: 0 1em;
+  border-radius: 3px;
+  font-weight: normal;
+  padding: 0.1875rem 1rem;
+}
+
+.top-nav span:hover {
+  background: rgba(255,255,255,.7);
+}
+
+.nav .top-nav {
+  opacity: 1;
+  height: auto;
+  transition: .4s ease all;
+  transition-delay: .2s;
+}
+
+.nav.shrink .top-nav {
+  opacity: 0;
+  height: 0;
+  transition: .4s ease all;
+}
+
+.nav .login-button {
+  height: auto;
+  opacity: 1;
+  transition: .4s ease all;
+  transition-delay: .2s;
+}
+
+.nav.shrink .login-button {
+  opacity: 0;
+  height: 0;
+  transition: .4s ease all;
+}
+
+.sub-nav dd a {
+  color: #fff;
+}
+
+.sub-nav dd a:hover {
+  color: #2ba6cb;
+}
