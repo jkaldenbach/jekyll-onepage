@@ -2,31 +2,19 @@
 layout: default
 ---
 
-<div class="home">
-  <h1>Foos</h1>
-  {{ site.foos }}
-  <h1 class="page-heading">Posts</h1>
+<div class="parallax-group" style="z-index:10;">
+  <div class="elem1"><!-- <img src="http://placekitten.com/g/1300/900"> --></div>
+  <div class="elem1-text top-item">
+    <center>
+      <h1>A submittals solution that helps you get more than just an approval.</h1>
+      <h3>Because what good is "Approved" if it doesn't show up when you need it?</h3>
+      <a class="large round transparent button">Streamline my Project</a>
+    </center>
+  </div>
 
-  <ul>
-    {% for foo in site.foos %}
-      <li>
-        {{ foo.title }}
-      </li>
-    {% endfor %}
-  </ul>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  {% for section in site.sections %}
+    <div class="elem2" id="{{ section.slug }}">
+      {{ section.content }}
+    </div>
+  {% endfor %}
 </div>
