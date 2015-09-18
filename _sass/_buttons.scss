@@ -7,6 +7,35 @@
 }
 
 .button.transparent:hover {
-  background-color: #a0d3e8;
   background-color: #2ba6cb;
+}
+
+.social-links {
+  a {
+    display: inline-block;
+    height: 66px;
+    width: 66px;
+    background-repeat: no-repeat;
+    margin: 0 5px;
+    opacity: 0.5;
+    transition: .4s ease all;
+
+    &:hover {
+      opacity: 1;
+      transition: 0.1s ease all;
+    }
+  }
+
+  .github { background-image: url("../img/GitHub-Mark-Light-64px.png"); }
+  .linkedin { background-image: url("../img/In-White-66px-TM.png") }
+}
+
+.nav.shrink .social-links {
+  a {
+    height: 34px;
+    width: 34px;
+    transition: .4s ease all;
+  }
+  .github { background-image: url("../img/GitHub-Mark-Light-32px.png"); }
+  .linkedin { background-image: url("../img/In-White-34px-TM.png") }
 }

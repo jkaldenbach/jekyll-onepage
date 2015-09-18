@@ -2,13 +2,18 @@
 
   <div class="nav">
     <img src="{{ "/img/justin.png" | prepend: site.baseurl }}" class="header-img">
-    <div class="right login-button">
-      <a class="tiny round transparent button">Sign In</a>
+    <div class="right social-links">
+      <a class="github"></a>
+      <a class="linkedin"></a>
     </div>
     <dl class="sub-nav">
       {% for section in site.sections %}
         <dd name="{{ section.slug }}"><a href="#{{ section.slug }}">{{ section.title }}</a></dd>
       {% endfor %}
+        <div class="right social links">
+          <a class="github"></a>
+          <a class="linkedin"></a>
+        </div>
     </dl>
     <div class="top-nav">
       <center>
