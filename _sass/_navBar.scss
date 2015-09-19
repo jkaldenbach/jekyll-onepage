@@ -47,6 +47,7 @@
   height: auto;
   transition: .4s ease all;
   transition-delay: .2s;
+  font-size: 1.5em;
 
   span {
     margin: 0 1em;
@@ -79,6 +80,6 @@
   .top-nav {
     opacity: 0;
     height: 0;
-    transition: .4s ease all;
+    transition: .2s ease all;
   }
 }
