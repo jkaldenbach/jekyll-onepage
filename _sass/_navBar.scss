@@ -1,5 +1,8 @@
 @import "variables";
 
+$nav-vert-padding: 10px;
+$sub-nav-height: $nav-height - 2 * $nav-vert-padding;
+
 .nav {
   background-color: rgba(0,0,0,0);
   position: fixed;
@@ -21,14 +24,10 @@
 }
 
 .sub-nav {
-  position: fixed;
-  top: 0;
-  right: 120px;
-  opacity: 0;
   height: 0;
   margin: 0 15px;
   padding: 0;
-  line-height: $nav-height;
+  line-height: $sub-nav-height;
   vertical-align: middle;
   transition: .4s ease all;
 
@@ -71,7 +70,7 @@
   }
 
   .sub-nav {
-    height: $nav-height;
+    height: $sub-nav-height;
     opacity: 1;
     transition: .2s ease all;
     transition-delay: .2s;
