@@ -1,5 +1,6 @@
 ---
 title: "Features"
+# must be valid JS variable name:
 slug: 'features'
 ---
 # {{ page.title }}

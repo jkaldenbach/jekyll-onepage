@@ -1,6 +1,7 @@
 ---
 title: "Getting Started"
-slug: 'getting-started'
+# must be valid JS variable name:
+slug: 'gettingStarted'
 ---
 # {{ page.title }}
 

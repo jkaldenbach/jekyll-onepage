@@ -15,8 +15,6 @@ $sub-nav-height: $nav-height - 2 * $nav-vert-padding;
 }
 
 .header-img {
-  filter: invert(100%);
-  -webkit-filter: invert(100%);
   margin-left: 5%;
   height: 80px;
   max-width: 90%;
@@ -65,7 +63,7 @@ $sub-nav-height: $nav-height - 2 * $nav-vert-padding;
 
   .header-img {
     margin-left: 0%;
-    height: 30px;
+    height: $sub-nav-height;
     transition: .4s ease all;
   }
 
