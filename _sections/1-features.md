@@ -1,6 +1,6 @@
 ---
-title: "Projects"
-slug: 'projects'
+title: "Features"
+slug: 'features'
 ---
 # {{ page.title }}
 
