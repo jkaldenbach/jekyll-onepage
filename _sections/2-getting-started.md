@@ -1,6 +1,6 @@
 ---
-title: "Scratch Pad"
-slug: 'scratchPad'
+title: "Getting Started"
+slug: 'getting-started'
 ---
 # {{ page.title }}
 
