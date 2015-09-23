@@ -58,7 +58,7 @@ $sub-nav-height: $nav-height - 2 * $nav-vert-padding;
   }
 }
 
-.nav.shrink {
+.nav.shrink, .no-js .nav {
   background-color: rgba(0,0,0,0.5);
 
   .header-img {

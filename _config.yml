@@ -1,5 +1,6 @@
 # Site settings
-title: Showdog | Single page Jekyll template for people with something to show off
+title: Showdog
+tagline: Single page Jekyll template for people with something to show off
 email: kaldejm@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -8,7 +9,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/showdog/" # the subpath of your site, e.g. /blog/
 url: "http://jkaldenbach.github.io" # the base hostname & protocol for your site
 twitter_username: jmkaldenbach
-github_username:  jkaldenbach
+github_url:  https://github.com/jkaldenbach/showdog
 linkedin_url: https://www.linkedin.com/pub/justin-kaldenbach/27/b87/9b3
 
 # Build settings
