@@ -30,9 +30,9 @@ $sub-nav-height: $nav-height - 2 * $nav-vert-padding;
   transition: .4s ease all;
 
   dd {
-    border-radius: 3px;
-    font-weight: normal;
     a {
+      border-radius: 3px;
+      font-weight: normal;
       color: #fff;
       &:hover {
         color: #2ba6cb;
