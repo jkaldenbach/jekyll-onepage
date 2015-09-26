@@ -29,10 +29,14 @@ $sub-nav-height: $nav-height - 2 * $nav-vert-padding;
   vertical-align: middle;
   transition: .4s ease all;
 
-  dd a {
-    color: #fff;
-    &:hover {
-      color: #2ba6cb;
+  dd {
+    border-radius: 3px;
+    font-weight: normal;
+    a {
+      color: #fff;
+      &:hover {
+        color: #2ba6cb;
+      }
     }
   }
 }
