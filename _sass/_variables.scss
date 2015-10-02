@@ -8,3 +8,8 @@ $hero-text: #fff;
 $fallback-bg: #000;
 
 $nav-height: 55px;
+$nav-vert-padding: 10px;
+$sub-nav-height: $nav-height - 2 * $nav-vert-padding;
+
+$header-img-height: 200px;
+$header-img-width: 400px;

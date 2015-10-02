@@ -1,7 +1,5 @@
 @import "variables";
 
-$nav-vert-padding: 10px;
-$sub-nav-height: $nav-height - 2 * $nav-vert-padding;
 
 .nav {
   background-color: rgba(0,0,0,0);
@@ -15,9 +13,11 @@ $sub-nav-height: $nav-height - 2 * $nav-vert-padding;
 }
 
 .header-img {
-  margin-left: 5%;
-  height: 80px;
-  max-width: 90%;
+  position: absolute;
+  left: 50%;
+  margin-left: -$header-img-width/2;
+  height: $header-img-height;
+  width: $header-img-width;
   transition: .4s ease all;
 }
 
@@ -43,7 +43,7 @@ $sub-nav-height: $nav-height - 2 * $nav-vert-padding;
 
 .top-nav {
   display: block;
-  margin: 0 auto;
+  margin: $header-img-height + 30px auto 0 auto;
   opacity: 1;
   height: auto;
   transition: .4s ease all;
@@ -66,8 +66,10 @@ $sub-nav-height: $nav-height - 2 * $nav-vert-padding;
   background-color: rgba(0,0,0,0.5);
 
   .header-img {
-    margin-left: 0%;
+    margin-left: 0;
+    left: 30px;
     height: $sub-nav-height;
+    width: $header-img-width * $sub-nav-height / $header-img-height;
     transition: .4s ease all;
   }
 
