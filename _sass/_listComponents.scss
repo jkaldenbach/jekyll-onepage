@@ -1,0 +1,24 @@
+ul.aboutList {
+  list-style: none;
+
+  li {
+    margin: 0 4rem 4rem;
+    i {
+      background-color: #ccc;
+      border-radius: 100px;
+      width: 70px;
+      height: 70px;
+      float: left;
+      margin-right: 15px;
+      line-height: 70px;
+      font-size: 200%;
+      vertical-align: middle;
+      text-align: center;
+    }
+    .title {
+      display: block;
+      font-weight: bold;
+      font-size: 150%;
+    }
+  }
+}
