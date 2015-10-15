@@ -3,9 +3,6 @@ title: "Features"
 # must be valid JS variable name:
 slug: 'features'
 ---
-# {{ page.title }}
+# Pre-packed with the tools you already love...
 
-{% for icon in site.posts %}
-  {{ icon.url }}
-{% endfor %}
-{: .listClass}
+- 
